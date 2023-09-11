@@ -27,8 +27,10 @@ app.get("/api", (req, res) => {
     currentDay: days[now.getDay()],
     utc_time: now.toISOString(),
     track: track,
-    github_file_url: "https://www.google.com",
-    github_repo_url: slack_name,
+    github_file_url:
+      "https://github.com/unsafemango/hngx-backend/blob/main/stage-one/app.js",
+    github_repo_url:
+      "https://github.com/unsafemango/hngx-backend/tree/main/stage-one",
     status_code: 200,
   });
 });
